@@ -55,3 +55,25 @@ Aqui ele mostra como abrir o seu projeto no intellij.
 ### 7. Criando o primeiro endpoint REST
 
 Aqui ele mostra como fazer uma endpoint utilizando o Spring com Gradle, parece ser interessante essa parada do gradle ai mais tem que ser mais estudado, detalha interessante é o tal do actuator que o proprio spring disponibiliza, que basicamente ele deixa um endpoint de pé tipo em prod para você poder consultar se ta tudo de pé.
+
+### Teste 1: Anotações para criar um controller e um endpoint
+
+Aqui exercicios bem basicos e simples.
+
+### Teste 2: Parâmetros e retornos de uma operação
+
+Aqui também.
+
+## Seção 3: Executando a aplicação em um container Docker
+
+### 8. Visão geral do Docker
+
+Aqui ele só explicou como vai funcionar as paradas.
+
+### 9. Criando o repositório no Docker Hub
+
+Só criamos uma repositório no dockerhub e mais nada.
+
+#### 10. Preparando o projeto para gerar a imagem do Docker
+
+Criamos uma imagem docker com o java 15 e umas paradas do Gradle, to começando a achar complicado de mais para nada.
