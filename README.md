@@ -107,6 +107,27 @@ Aqui quando você apaga uma stack ela apaga tudos os recursos que ela possui, o 
 
 Mais uma Teste mequetrefe.
 
+## Seção 5: Introdução ao AWS CDK
+
+### 15. Criação do usuário IAM para o AWS CDK
+
+Aqui mostrou como criar um usuario com permissão de root na AWS
+
+### 16. Migração para o AWS CDK 2.x
+
+Aqui tem um paper que mostra algumas configs que devem ser feitas por causa de uma atualização da AWS , nem fiz nada e nego quer que eu atualize as paradas.
+
+### 17. Instalação do AWS CDK
+
+Aqui já tinha feito a instalação do aws cli no windows, agora configurei e fiz o mesmo processo no ubuntu do WSL.
+Aqui ainda tem que instalar o CDK que ainda não sei para o que serve, depois de uma certa luta consegui instalar saporra.
+
+### 18. Criando o projeto com CDK
+
+### 19. Entendendo a estrutura do projeto com CDK
+
+### Teste 5: AWS CDK
+
 ## Seção 6: Introdução ao AWS ECS com Fargate
 
 ### 20. Arquitetura com AWS ECS e Fargate
@@ -126,3 +147,39 @@ basicamente o fargate não cria uma nova instancia dentro do container ecs ele u
 ### Teste 6: AWS ECS com Fargate
 
 Mais uma Teste mequetrefe.
+
+### 23. Task e Task definition
+
+isso aqui é basicamente um script que vai montar o ambiente de acordo com o que colocarmos la.
+
+### 24. Service
+
+Serviço é o que gerencia as instancias e executa as tarefas, garante que se um container morrer ele vai subir um novo , ou que ele vai matar o container que não pode coexistir com outro, manter a quantidade correta de container rodando.
+
+### Teste 8: Gerenciamento das instâncias pelo serviço
+
+Mais uma Teste mequetrefe.
+
+### 25. Auto scaling
+
+Isso aqui é o cara que permite que seja instancia da uma nova instancia para suprir uma demanda muito alta e tals, e assim que não for mais necessaria ele destroi.
+
+### Teste 9: Sobre auto-scaling
+
+Mais uma Teste mequetrefe.
+
+### 26. ALB - Application load balancer, target group e security group
+
+Aqui é o cara que manda as requisições para as instancias, para garantir que não sobrecarregue apenas uma das instancias.
+
+target group é o cara que fica monitorando a saúde de cada container ou instancias
+
+security group é o cara que fica monitorando o acesso nas porta predefinido.
+
+### Teste 10: Application load balancer
+
+Mais uma Teste mequetrefe.
+
+## Seção 7: Deployment da aplicação no AWS ECS com Fargate
+
+### 27. Criação da stack da VPC
